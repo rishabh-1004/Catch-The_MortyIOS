@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Catch_the_morty" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cd3-ed-qPV">
+                                <rect key="frame" x="185" y="134" width="125" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8aQ-ZW-OzR">
+                                <rect key="frame" x="45" y="250" width="125" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="g3I-vo-vIb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mfg-Pm-VMb">
+                                <rect key="frame" x="185" y="251" width="125" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cO0-tc-kP6">
+                                <rect key="frame" x="185" y="384" width="125" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h5L-Ub-DPr">
+                                <rect key="frame" x="45" y="384" width="125" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="LoH-XC-deN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7ar-On-yma">
+                                <rect key="frame" x="45" y="511" width="125" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wsx-1g-2cn">
+                                <rect key="frame" x="185" y="511" width="125" height="108"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paT-24-Moj">
+                                <rect key="frame" x="139" y="41" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="6iC-eV-Vhw"/>
+                                    <constraint firstAttribute="height" constant="21" id="Eh7-cz-Wuq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saj-0q-kB6">
+                                <rect key="frame" x="105" y="84" width="162" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="kNh-UT-WFo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ML9-ez-nV3">
+                                <rect key="frame" x="105" y="632" width="125" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="JUc-kt-l4d"/>
+                                    <constraint firstAttribute="width" constant="125" id="NxP-d1-gGl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty_1x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Et-c7-h4O">
+                                <rect key="frame" x="52" y="134" width="125" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="Mxx-Fr-kV5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSW-j4-Y3I">
+                                <rect key="frame" x="217" y="633" width="61" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="def-3b-Y98"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Et-c7-h4O" firstAttribute="top" secondItem="Saj-0q-kB6" secondAttribute="bottom" constant="19" id="0T5-zs-FdC"/>
+                            <constraint firstItem="h5L-Ub-DPr" firstAttribute="bottom" secondItem="cO0-tc-kP6" secondAttribute="bottom" id="3Vz-5E-SAB"/>
+                            <constraint firstItem="8aQ-ZW-OzR" firstAttribute="top" secondItem="3Et-c7-h4O" secondAttribute="bottom" constant="8" symbolic="YES" id="5K8-h8-l7M"/>
+                            <constraint firstItem="h5L-Ub-DPr" firstAttribute="top" secondItem="8aQ-ZW-OzR" secondAttribute="bottom" constant="26" id="6do-jj-7HE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ML9-ez-nV3" secondAttribute="bottom" constant="14" id="7r8-u1-JoC"/>
+                            <constraint firstItem="mfg-Pm-VMb" firstAttribute="trailing" secondItem="cO0-tc-kP6" secondAttribute="trailing" id="AR3-XV-34X"/>
+                            <constraint firstItem="3Et-c7-h4O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="BaB-xl-r1A"/>
+                            <constraint firstItem="mfg-Pm-VMb" firstAttribute="leading" secondItem="8aQ-ZW-OzR" secondAttribute="trailing" constant="15" id="Cds-dI-Ouf"/>
+                            <constraint firstItem="cO0-tc-kP6" firstAttribute="leading" secondItem="Wsx-1g-2cn" secondAttribute="leading" id="DD5-QD-8XF"/>
+                            <constraint firstItem="h5L-Ub-DPr" firstAttribute="leading" secondItem="7ar-On-yma" secondAttribute="leading" id="ECy-Ea-YmC"/>
+                            <constraint firstItem="paT-24-Moj" firstAttribute="trailing" secondItem="ML9-ez-nV3" secondAttribute="trailing" id="Eb3-td-VUE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cd3-ed-qPV" secondAttribute="trailing" constant="49" id="JMM-wk-sg3"/>
+                            <constraint firstItem="3Et-c7-h4O" firstAttribute="bottom" secondItem="Cd3-ed-qPV" secondAttribute="bottom" id="K6t-xg-34Z"/>
+                            <constraint firstItem="mfg-Pm-VMb" firstAttribute="leading" secondItem="cO0-tc-kP6" secondAttribute="leading" id="KoZ-HM-JTY"/>
+                            <constraint firstItem="paT-24-Moj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="LYc-Xf-kdZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fSW-j4-Y3I" secondAttribute="trailing" constant="81" id="LxH-hD-ONZ"/>
+                            <constraint firstItem="ML9-ez-nV3" firstAttribute="top" secondItem="Wsx-1g-2cn" secondAttribute="bottom" constant="13" id="O6L-6p-x7a"/>
+                            <constraint firstItem="Wsx-1g-2cn" firstAttribute="centerX" secondItem="fSW-j4-Y3I" secondAttribute="centerX" id="Q8h-nH-00l"/>
+                            <constraint firstItem="mfg-Pm-VMb" firstAttribute="top" secondItem="Cd3-ed-qPV" secondAttribute="bottom" constant="9" id="TmE-2R-0Tl"/>
+                            <constraint firstItem="h5L-Ub-DPr" firstAttribute="top" secondItem="cO0-tc-kP6" secondAttribute="top" id="WXd-iC-zy1"/>
+                            <constraint firstItem="cO0-tc-kP6" firstAttribute="top" secondItem="mfg-Pm-VMb" secondAttribute="bottom" constant="25" id="WjU-rz-MRR"/>
+                            <constraint firstItem="Cd3-ed-qPV" firstAttribute="leading" secondItem="mfg-Pm-VMb" secondAttribute="leading" id="bcT-Vt-wj8"/>
+                            <constraint firstItem="Saj-0q-kB6" firstAttribute="top" secondItem="paT-24-Moj" secondAttribute="bottom" constant="22" id="bkZ-GG-Ggn"/>
+                            <constraint firstItem="Cd3-ed-qPV" firstAttribute="leading" secondItem="3Et-c7-h4O" secondAttribute="trailing" constant="8" symbolic="YES" id="c5i-AU-d1h"/>
+                            <constraint firstItem="3Et-c7-h4O" firstAttribute="top" secondItem="Cd3-ed-qPV" secondAttribute="top" id="cYP-XS-v3W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Saj-0q-kB6" secondAttribute="trailing" constant="92" id="d82-8M-tVv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fSW-j4-Y3I" secondAttribute="bottom" constant="13" id="dkE-FV-udP"/>
+                            <constraint firstItem="8aQ-ZW-OzR" firstAttribute="leading" secondItem="h5L-Ub-DPr" secondAttribute="leading" id="gVl-7D-j5P"/>
+                            <constraint firstItem="8aQ-ZW-OzR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="m3S-ca-H6K"/>
+                            <constraint firstItem="h5L-Ub-DPr" firstAttribute="trailing" secondItem="7ar-On-yma" secondAttribute="trailing" id="m7W-9U-rbI"/>
+                            <constraint firstItem="7ar-On-yma" firstAttribute="top" secondItem="h5L-Ub-DPr" secondAttribute="bottom" constant="19" id="ncC-K3-efi"/>
+                            <constraint firstItem="7ar-On-yma" firstAttribute="top" secondItem="Wsx-1g-2cn" secondAttribute="top" id="pFY-EC-kz0"/>
+                            <constraint firstItem="7ar-On-yma" firstAttribute="bottom" secondItem="Wsx-1g-2cn" secondAttribute="bottom" id="plk-zr-IRI"/>
+                            <constraint firstItem="Saj-0q-kB6" firstAttribute="leading" secondItem="ML9-ez-nV3" secondAttribute="leading" id="r05-E0-nCJ"/>
+                            <constraint firstItem="8aQ-ZW-OzR" firstAttribute="trailing" secondItem="h5L-Ub-DPr" secondAttribute="trailing" id="sci-6S-OWZ"/>
+                            <constraint firstItem="Cd3-ed-qPV" firstAttribute="trailing" secondItem="mfg-Pm-VMb" secondAttribute="trailing" id="vfL-Gn-5Na"/>
+                            <constraint firstItem="cO0-tc-kP6" firstAttribute="trailing" secondItem="Wsx-1g-2cn" secondAttribute="trailing" id="wcS-uu-nNs"/>
+                            <constraint firstItem="Saj-0q-kB6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="89" id="xLc-V8-pzS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="fSW-j4-Y3I" id="OPW-8W-d2n"/>
+                        <outlet property="morty1" destination="3Et-c7-h4O" id="VMt-Kd-mbD"/>
+                        <outlet property="morty2" destination="Cd3-ed-qPV" id="F5J-m6-fEM"/>
+                        <outlet property="morty3" destination="8aQ-ZW-OzR" id="nIL-d8-Mvv"/>
+                        <outlet property="morty4" destination="mfg-Pm-VMb" id="qkf-2u-yyP"/>
+                        <outlet property="morty5" destination="h5L-Ub-DPr" id="VRa-MM-Mbt"/>
+                        <outlet property="morty6" destination="cO0-tc-kP6" id="wc9-sW-z4X"/>
+                        <outlet property="morty7" destination="7ar-On-yma" id="qFz-qa-hMC"/>
+                        <outlet property="morty8" destination="Wsx-1g-2cn" id="RBb-Hw-98U"/>
+                        <outlet property="scoreLabel" destination="Saj-0q-kB6" id="lPi-tm-BX3"/>
+                        <outlet property="timerLabel" destination="paT-24-Moj" id="fM7-FZ-cOh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463.19999999999999" y="56.221889055472268"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="morty_1x.jpg" width="400" height="300"/>
+    </resources>
+</document>
